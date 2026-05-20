@@ -20,7 +20,8 @@ This project was developed as the primary deliverable for the **Technopreneurshi
 ## 📌 Project Artifacts & Deliverables (Concept & Prototype)
 The complete visual system architecture and business operational framework can be accessed transparently via the following links:
 
-* **[🔗 Explore Figma Prototype / High-Fidelity UI Design](https://www.figma.com/design/47HIJ4YVuUbHxkpNdoMrPC/Titikmu-App?node-id=0-1&t=XpwGzz3pisdT3RlH-1)** — Walk through the end-to-end visual workflow of the application, from searching routes, selecting trusted local operators (e.g., KBT, Paradep, Sampri, KMP Ihan Batak), to inspecting the Admin/Operator Dashboard interface.
+* **[🔗 Explore UI Design & Prototype](https://www.figma.com/design/47HIJ4YVuUbHxkpNdoMrPC/Titikmu-App?node-id=0-1&t=XpwGzz3pisdT3RlH-1)** — Walk through the end-to-end visual workflow of the application, from searching routes, selecting trusted local operators (e.g., KBT, Paradep, Sampri, KMP Ihan Batak), to inspecting the Admin/Operator Dashboard interface.
+* **[🔗 View UI Style Guideline & Design System](https://www.figma.com/design/DpIQOGsvuDwzilBzF2RfqZ/UI-Style-Guideline--Community-?node-id=636-5000&p=f&t=elVRsNQlaMgxbHj5-0)** — Inspect the standardized design token system, including the color palette, typography hierarchy, iconography, and reusable UI components utilized to maintain visual consistency across the platform.
 
 ## 🛠️ Design Specifications & Planned Architecture (Future Roadmap)
 Should this project advance into software development and commercialization phases, the technical infrastructure has been architected as follows:
