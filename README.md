@@ -8,7 +8,7 @@
   <img src="Welcome.png" width="250" alt="Welcome Screen">
   &nbsp;&nbsp;&nbsp;&nbsp;
 
-## 🎯 Core Value & Solution
+## Core Value & Solution
 * **Centralized System:** Replaces fragmented schedules, untransparent pricing, and scalper risks with a unified platform offering QR-based e-tickets.
 * **Local & Intermodal Focus:** The first platform dedicated to seamlessly bridging land (bus) and water (ferry) transport for North Sumatra routes (e.g., KBT, Paradep, Sampri, KMP Ihan Batak).
 * **Fast & Secure:** Built for maximum convenience with real-time booking data and secure digital payment integration.
