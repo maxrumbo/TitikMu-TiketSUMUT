@@ -7,8 +7,6 @@
 <p align="center">
   <img src="Welcome.png" width="250" alt="Welcome Screen">
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="Dashboard.png" width="250" alt="Dashboard Screen">
-</p>
 
 ## 🎯 Core Value & Solution
 * **Centralized System:** Replaces fragmented schedules, untransparent pricing, and scalper risks with a unified platform offering QR-based e-tickets.
