@@ -1,37 +1,33 @@
-# TitikMu — Bus & Ferry Digital Ticket Platform (UI/UX Prototype & Business Plan)
+# TitikMu — Bus & Ferry Digital Ticket Platform
 
-`TitikMu` (short for **Tiket Sumut**) is an innovative, integrated digital platform concept designed to facilitate online ticket bookings for buses and ferries in North Sumatra, with a primary focus on the Lake Toba region and its surroundings. 
+**TitikMu (Tiket Sumut)** is an integrated digital ticketing concept for buses and ferries in North Sumatra, focusing primarily on the Lake Toba region. 
 
-> ⚠️ **Project Status:** This project is a **conceptual work (Non-Codebase)** focusing on business model formulation (*Business Plan*) and user interface design (*High-Fidelity UI/UX Prototype*). There is no source code or programming implementation within this repository.
+<br>
 
-This project was developed as the primary deliverable for the **Technopreneurship (TIS0001)** course by **Group 07** during the Odd Semester of the 2025/2026 Academic Year.
+<p align="center">
+  <img src="Welcome.png" width="250" alt="Welcome Screen">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="Dashboard.png" width="250" alt="Dashboard Screen">
+</p>
 
----
+## 🎯 Core Value & Solution
+* **Centralized System:** Replaces fragmented schedules, untransparent pricing, and scalper risks with a unified platform offering QR-based e-tickets.
+* **Local & Intermodal Focus:** The first platform dedicated to seamlessly bridging land (bus) and water (ferry) transport for North Sumatra routes (e.g., KBT, Paradep, Sampri, KMP Ihan Batak).
+* **Fast & Secure:** Built for maximum convenience with real-time booking data and secure digital payment integration.
 
-## 📌 Problem & Solution
-* **The Problem:** Fragmented and decentralized transportation schedules and route information across North Sumatra. Passengers face unreliable data from multiple local operators, high risks of ticketing fraud/scalping at physical ticket booths, and a severe lack of price transparency or clear refund mechanisms.
-* **The Solution:** TitikMu consolidates all land and water transportation ticketing data into a unified, centralized platform. It provides QR code-based digital e-tickets and integrates secure digital payment gateways to ensure seamless, reliable transactions.
+## Design Artifacts
+* **[Interactive UI Prototype](https://www.figma.com/design/47HIJ4YVuUbHxkpNdoMrPC/Titikmu-App?node-id=0-1&t=XpwGzz3pisdT3RlH-1)** — Explore the end-to-end booking workflow, operator selection, and user dashboard.
+* **[UI Style Guidelines](https://www.figma.com/design/DpIQOGsvuDwzilBzF2RfqZ/UI-Style-Guideline--Community-?node-id=636-5000&p=f&t=elVRsNQlaMgxbHj5-0)** — Inspect our standardized design system, color palettes, and reusable UI components.
 
-## ✨ Value Proposition & Key Advantages
-* **Strong Local Focus:** Tailored specifically for North Sumatra, capturing local routes (such as the Toba-Samosir crossings) that are largely unserved by mainstream national platforms.
-* **Intermodal Integration:** The pioneer platform in the region to bridge both land (bus) and water (ferry) transport options seamlessly under a single intermodal booking journey.
-* **Core Service Pillars:** Centered heavily on **Convenience** (intuitive UI), **Speed** (real-time scheduling data), and **Security** (verified payment gateways to completely eliminate scalper intervention).
+## Planned Tech Stack (Future Roadmap)
+If transitioned into software development, the planned technical architecture is:
+* **Backend & APIs:** FastAPI for low-latency synchronization with local transport operators.
+* **Database:** PostgreSQL for secure transaction records and live ticket inventories.
+* **Payments:** Gateway integrations (Midtrans, DOKU, GoPay) to encrypt and process transactions.
 
-## 📌 Project Artifacts & Deliverables (Concept & Prototype)
-The complete visual system architecture and business operational framework can be accessed transparently via the following links:
-
-* **[🔗 Explore UI Design & Prototype](https://www.figma.com/design/47HIJ4YVuUbHxkpNdoMrPC/Titikmu-App?node-id=0-1&t=XpwGzz3pisdT3RlH-1)** — Walk through the end-to-end visual workflow of the application, from searching routes, selecting trusted local operators (e.g., KBT, Paradep, Sampri, KMP Ihan Batak), to inspecting the Admin/Operator Dashboard interface.
-* **[🔗 View UI Style Guideline & Design System](https://www.figma.com/design/DpIQOGsvuDwzilBzF2RfqZ/UI-Style-Guideline--Community-?node-id=636-5000&p=f&t=elVRsNQlaMgxbHj5-0)** — Inspect the standardized design token system, including the color palette, typography hierarchy, iconography, and reusable UI components utilized to maintain visual consistency across the platform.
-
-## 🛠️ Design Specifications & Planned Architecture (Future Roadmap)
-Should this project advance into software development and commercialization phases, the technical infrastructure has been architected as follows:
-* **Core Infrastructure:** A centralized relational database system powered by PostgreSQL to manage live ticket inventories, transaction records, and user credentials securely.
-* **API Integration:** Real-time RESTful API endpoints (planned with FastAPI) to establish direct, low-latency synchronization with local transport operators' booking systems.
-* **Payment Gateway:** Automated third-party integration (such as Midtrans, DOKU, and GoPay) to secure and encrypt all digital customer transactions.
-
-## 👥 Management Team (Group 07)
-* **Maxwell Avinda Rumahorbo** — Strategic Business Lead, Application Workflow & UI Designer
-* **Arya Sinambela** — Lead Systems Architecture & Core Feature Logic Developer
-* **Grasia Simanullang** — Marketing Strategist, Communications Manager & Competitive Analyst
-* **Davina Hutabarat** — Daily Operations Manager & Local Operator/Booths Partnership Lead
-* **Dasmauli Sormin** — Financial Management, Cash Flow Controller & Feature Analyst
+## Technopreneurship Team (Group 07)
+* **Maxwell Avinda Rumahorbo** — Strategic Business Lead & UI Designer
+* **Arya Sinambela** — Lead Systems Architecture
+* **Grasia Simanullang** — Marketing Strategist & Communications
+* **Davina Hutabarat** — Operations & Operator Partnership Lead
+* **Dasmauli Sormin** — Financial Management & Feature Analyst
